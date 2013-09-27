@@ -153,10 +153,12 @@ class GSRequest {
 		$this->traceField("proxyUserPass",$proxyUserPass);
 	}
 
-	public function setCurlOptionsArray($curlArray)
+	public function setCurlOptionsArray(array $options)
 	{
-		$this->curlArray = $curlArray;
-		$this->traceField("curlArray", $curlArray);
+		$this->curlArray = $options;
+		foreach ($options as $key => $value) {
+			$this->traceField("curlArray", sprintf('%s:%s', $key, $value));
+		}
 	}
 
 	/**
