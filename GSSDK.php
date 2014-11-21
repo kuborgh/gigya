@@ -67,7 +67,7 @@ class GSRequest {
 
 	static function __constructStatic()
 	{
-		GSRequest::$cafile = dirname(__FILE__) . '/cacert.perm';
+		GSRequest::$cafile = dirname(__FILE__) . '/cacert.pem';
 	}
 
 	/**
