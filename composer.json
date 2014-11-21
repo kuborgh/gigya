@@ -1,5 +1,5 @@
 {
-    "name": "alexkovalevych/gigya",
+    "name": "guywithnose/gigya",
     "type": "library",
     "description": "Gigya.com php sdk fork",
     "keywords": ["gigya", "api", "sdk"],
