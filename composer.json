@@ -1,12 +1,13 @@
 {
-    "name": "guywithnose/gigya",
+    "name": "kuborgh/gigya",
     "type": "library",
     "description": "Gigya.com php sdk fork",
     "keywords": ["gigya", "api", "sdk"],
-    "homepage": "https://github.com/AlexKovalevych/gigya",
+    "homepage": "https://github.com/kuborgh/gigya",
     "license": "MIT",
     "authors": [
-        { "name": "Alex Kovalevych", "email": "alexkovalevych@gmail.com" }
+        { "name": "Alex Kovalevych", "email": "alexkovalevych@gmail.com" },
+        { "name": "Hannes Giesenow", "email": "hgiesenow@kuborgh.de" }
     ],
     "require": {
         "php": ">=5.3.2"
@@ -16,7 +17,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "2.15.x-dev"
         }
     }
 }
